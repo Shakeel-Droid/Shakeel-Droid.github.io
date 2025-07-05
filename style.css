@@ -1,6 +1,6 @@
 #mainbody {
     background-color: black;
-    background-image: url("/CFC2ndversion/treeshadow.jpg");    
+    background-image: url("treeshadow.jpg");    
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
