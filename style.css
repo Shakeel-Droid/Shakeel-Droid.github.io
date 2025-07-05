@@ -1,0 +1,86 @@
+#mainbody {
+    background-color: black;
+    background-image: url("/CFC2ndversion/treeshadow.jpg");    
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    margin: 0;
+    /* display: flex;
+    align-content: stretch; */
+}
+
+main{
+  margin-left: 20px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+#myteaheader{
+  color: #ecbc68;
+  text-align: left;
+  position: relative;
+  animation: example;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-delay:1.5s ;
+  
+}
+
+/* div{
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+} */
+
+.navbar  ul{
+    list-style-type: none;
+    background-color: rgb(237, 109, 29);
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden; 
+    display: flex;
+    /* flex-direction: column;
+    justify-content: space-between; */
+}
+
+.navbar a{
+  color:rgb(0, 0, 0);
+  text-decoration:none ; 
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover{
+  background-color: rgb(235, 99, 15);
+}
+
+.navbar li{
+  
+  float: left;
+}
+
+@keyframes example{
+  0% {color: #ecbc68; left: 0%;}
+  10% {color: #f3b955}
+  25% {color: #f4b64c}
+  50% {color: #e39815}
+  75% {color: #da9319} 
+  100% {color: #996202; left:100%}
+}
+
+#homepagelink:hover{
+  color: #996202;
+  transform: scale(1.5);
+}
+
+
+.outerbox{
+  display: flex;
+  flex-direction: row;
+}
