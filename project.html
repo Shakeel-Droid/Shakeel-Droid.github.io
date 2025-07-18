@@ -9,12 +9,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>project</title>
   <link href="css/style.css" rel="stylesheet">
+    <style>
+    #hiddenText {
+      display: none;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
 </head>
 
 <body>
 
   <p>Under construction. </p>
   <p>View Tea Enthusiast page</p>
+  <button onclick="document.getElementById('secret').style.display='block'">Reveal</button>
+<div id="secret" style="display: none;"  style="color: darkblue; font-size: 18px; font-weight: bold; background-color: #f0f0f0; padding: 10px; border-radius: 8px;">Hello.</div>
+  
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            alert('This is an inline script!');
+        });
+    </script>
+  <button style="opacity: 0;" onclick="toggleText()">Click to Show/Hide Text</button>
+  
+
+  <div id="hiddenText" >
+    I find one of the biggest differences as silly as it sounds is you have to WANT to get good marks. "Aiming" for a mark is quite bluntly – stupid. Why on earth would you want to AIM at 50? 60? hell even 80? 99? Why if you're going to put effort into something would you not be trying to AIM for 100? This is my first tip. Always aim for absolutely every mark – sometimes you may fail that aim, but you're in a lot better situation thing "Oh it's ok I got 50% of this assignment, I'm on track to get what I'm aiming for". If you want good marks, always try and get every single mark you can, because they all count.
+
+
+    <p>Secondly, effort. Obviously people complain about not having time, being busy, etc etc, but then these people are sitting around at 6:30 watching their favourite show. If you actually want these good marks, then it's a case of being there studying and keeping on top of material, rather than kicking back and watching TV. Absolutely you can have a life – but don't ever use not having enough time as an excuse for poor marks.
+
+</p><p>Thirdly – Keep on top of everything. You absolutely have to have to process information as it comes, if you don't, it will be too hard to comprehensively take it all in during the last few weeks of the semester (besides the fact that marks from assignments etc would be lacking).
+
+</p><p>Fourth – Bookmark this post, and view it every week or so. The biggest problem with people (in everything, i.e. diets etc) is that it's a great idea, and I genuinely believe you want to get a HD this instant, but will you in a week? 3rd week of session? Last week? Don't give up on your idea of getting a HD. (I'm not meaning to make it sound corny, obviously it's just a uni mark, but you still have to keep that determination to help you study).
+
+</p>Fifth – Being in your second year, you have it a little bit harder. Courses in uni are often build upon fundamentals learnt in earlier courses. Having gotten 60's/70's previously means that there is 30/40% of that course which you didn't know enough. The next course is going to use 100% of that knowledge (to different extents), so start going back NOW (before uni goes back) and learn what will be weaknesses later in your current courses.
+
+That's enough ranting and rambling for me tonight <p>Networking. Talking with friends allowed meto discover Discord uni/cd.</p>
+</div>
+
+  <script>
+    function toggleText() {
+      var textDiv = document.getElementById("hiddenText");
+      if (textDiv.style.display === "none") {
+        textDiv.style.display = "block";
+      } else {
+        textDiv.style.display = "none";
+      }
+    }
+  </script>
+
+    
+    
+    <button  style="opacity: 0;"type="button" onclick="alert('Hello world!')">Click Me!
+      <p>lol</p>
+      
+
 
   <script src="js/script.js"></script>
 </body>
